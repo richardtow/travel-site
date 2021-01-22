@@ -3,10 +3,11 @@
   position: relative;
 
   &__image {
-    display: block;   /* by default, browser treats image as inline element, so it render it with some space below the bottom. */
+    display: block;
   }
 
   &__text-content {
+    padding-top: 60px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
